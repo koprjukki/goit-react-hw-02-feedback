@@ -8,9 +8,9 @@ import { Notification } from "../components/Notification/Notification";
 
 export default class App extends Component {
 	state = {
-		good: 10000,
+		good: 0,
 		neutral: 0,
-		bad: 1200,
+		bad: 0,
 	};
 
 	handleFeedback = (e) => {
